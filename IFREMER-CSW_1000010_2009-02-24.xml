@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://schemas.seadatanet.org/Standards-Software/Metadata-formats/SDN2_CSR_ISO19139_3.0.0.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sdn="http://www.seadatanet.org" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" xsi:schemaLocation="http://www.seadatanet.org http://schemas.seadatanet.org/Standards-Software/Metadata-formats/SDN2_CSR_ISO19139_3.0.0.xsd">
+    <gmd:fileIdentifier>
+      <gco:CharacterString>urn:SDN:CSR:LOCAL:1000010</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gmd:LanguageCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#LanguageCode" codeListValue="eng" codeSpace="ISOTC211/19115">English</gmd:LanguageCode>
+    </gmd:language>
+    <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_ScopeCode" codeListValue="series" codeSpace="ISOTC211/19115">series</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+      <sdn:SDN_HierarchyLevelNameCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_HierarchyLevelNameCode" codeListValue="CSR" codeSpace="SeaDataNet">Cruise Summary record</sdn:SDN_HierarchyLevelNameCode>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName>
+          <sdn:SDN_EDMOCode codeList="http://seadatanet.maris2.nl/isocodelists/sdncodelists/edmo-edmerp-Codelists.xml#SDN_EDMOCode" codeSpace="SeaDataNet" codeListValue="486">IFREMER / IDM/SISMER</sdn:SDN_EDMOCode>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString>+33 (0)2 98.22.49.16</gco:CharacterString>
+                </gmd:voice>
+                <gmd:facsimile>
+                  <gco:CharacterString>+33 (0)2 98.22.46.44</gco:CharacterString>
+                </gmd:facsimile>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString>Centre IFREMER de Brest
+BP 70</gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString>PLOUZANE</gco:CharacterString>
+                </gmd:city>
+                <gmd:postalCode>
+                  <gco:CharacterString>29280</gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="FR" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">France</sdn:SDN_CountryCode>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString>sismer@ifremer.fr</gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+            <gmd:onlineResource>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>http://www.ifremer.fr/sismer/</gmd:URL>
+                </gmd:linkage>
+              </gmd:CI_OnlineResource>
+            </gmd:onlineResource>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:Date>2014-08-28</gco:Date>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115/SeaDataNet profile</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+      <gco:CharacterString>1.0</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:metadataExtensionInfo xlink:href="http://schemas.seadatanet.org/Standards-Software/Metadata-formats/csrExtensionInformation.xml" />
+    <gmd:identificationInfo>
+      <sdn:SDN_DataIdentification gco:isoType="MD_DataIdentification_Type">
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString>CANADOU RESON 2001</gco:CharacterString>
+            </gmd:title>
+            <gmd:alternateTitle>
+              <gco:CharacterString>FI352001000010</gco:CharacterString>
+            </gmd:alternateTitle>
+            <gmd:date>
+              <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date>2009-02-24</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                  <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gco:CharacterString>urn:SDN:CSR:LOCAL:1000010</gco:CharacterString>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmd:identifier>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <sdn:SDN_EDMOCode codeList="http://seadatanet.maris2.nl/isocodelists/sdncodelists/edmo-edmerp-Codelists.xml#SDN_EDMOCode" codeSpace="SeaDataNet" codeListValue="485">IFREMER / GM-MARINE GEOSCIENCES</sdn:SDN_EDMOCode>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:phone>
+                      <gmd:CI_Telephone>
+                        <gmd:voice>
+                          <gco:CharacterString>+33(0)2 98.22.42.70</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                          <gco:CharacterString>+33(0)2 98.22.45.70</gco:CharacterString>
+                        </gmd:facsimile>
+                      </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString>IFREMER Centre de Brest
+BP 70</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString>PLOUZANE</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:postalCode>
+                          <gco:CharacterString>29280</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:country>
+                          <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="FR" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">France</sdn:SDN_CountryCode>
+                        </gmd:country>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString>geosciences.marines@ifremer.fr</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:onlineResource>
+                      <gmd:CI_OnlineResource>
+                        <gmd:linkage>
+                          <gmd:URL>http://www.ifremer.fr/drogm/</gmd:URL>
+                        </gmd:linkage>
+                      </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</gmd:CI_RoleCode>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+            <gmd:citedResponsibleParty>
+              <gmd:CI_ResponsibleParty>
+                <gmd:organisationName>
+                  <sdn:SDN_EDMOCode codeList="http://seadatanet.maris2.nl/isocodelists/sdncodelists/edmo-edmerp-Codelists.xml#SDN_EDMOCode" codeSpace="SeaDataNet" codeListValue="1051">UNKNOWN</sdn:SDN_EDMOCode>
+                </gmd:organisationName>
+                <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                    <gmd:address>
+                      <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                          <gco:CharacterString>UNKNOWN</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:city>
+                          <gco:CharacterString>UNKNOWN</gco:CharacterString>
+                        </gmd:city>
+                        <gmd:country>
+                          <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="99" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">Unknown</sdn:SDN_CountryCode>
+                        </gmd:country>
+                        <gmd:electronicMailAddress>
+                          <gco:CharacterString>sdn-userdesk@seadatanet.org</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                      </gmd:CI_Address>
+                    </gmd:address>
+                  </gmd:CI_Contact>
+                </gmd:contactInfo>
+                <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</gmd:CI_RoleCode>
+                </gmd:role>
+              </gmd:CI_ResponsibleParty>
+            </gmd:citedResponsibleParty>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract>
+          <gco:CharacterString>Cette campagne est une prestation commerciale de la société Mesuris SA (Saint-Grégoire, France) pour l'IFREMER. Elle s'inscrit dans le cadre des campagnes CANADOU en Baie de Douarnenez.</gco:CharacterString>
+        </gmd:abstract>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>AUGRIS Claude</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+              <sdn:SDN_EDMOCode codeList="http://seadatanet.maris2.nl/isocodelists/sdncodelists/edmo-edmerp-Codelists.xml#SDN_EDMOCode" codeSpace="SeaDataNet" codeListValue="485">IFREMER / GM-MARINE GEOSCIENCES</sdn:SDN_EDMOCode>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString>+33(0)2 98.22.42.70</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString>+33(0)2 98.22.45.70</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString>IFREMER Centre de Brest
+BP 70</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>PLOUZANE</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:postalCode>
+                      <gco:CharacterString>29280</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="FR" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">France</sdn:SDN_CountryCode>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>geosciences.marines@ifremer.fr</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+                <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>http://www.ifremer.fr/drogm/</gmd:URL>
+                    </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+                </gmd:onlineResource>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>MOUQUET Alain</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+              <sdn:SDN_EDMOCode codeList="http://seadatanet.maris2.nl/isocodelists/sdncodelists/edmo-edmerp-Codelists.xml#SDN_EDMOCode" codeSpace="SeaDataNet" codeListValue="1051">UNKNOWN</sdn:SDN_EDMOCode>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString>UNKNOWN</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>UNKNOWN</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:country>
+                      <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="99" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">Unknown</sdn:SDN_CountryCode>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>sdn-userdesk@seadatanet.org</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Oceanographic geographical features</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2008-06-01</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <sdn:SDN_PortCode codeSpace="SeaDataNet" codeListValue="BSH232" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_PortCode">Unknown</sdn:SDN_PortCode>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="departure_place">departure_place</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>SeaDataNet Ports Gazetteer</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>C38</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2014-08-05</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>42</gco:CharacterString>
+                </gmd:edition>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://www.seadatanet.org/urnurl/SDN:C38</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <sdn:SDN_PortCode codeSpace="SeaDataNet" codeListValue="BSH232" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_PortCode">Unknown</sdn:SDN_PortCode>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="arrival_place">arrival_place</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>SeaDataNet Ports Gazetteer</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>C38</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2014-08-05</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>42</gco:CharacterString>
+                </gmd:edition>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://www.seadatanet.org/urnurl/SDN:C38</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="99" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">Unknown</sdn:SDN_CountryCode>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="departure_country">departure_country</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>International Standards Organisation countries</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>C32</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2011-12-15</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>6</gco:CharacterString>
+                </gmd:edition>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://www.seadatanet.org/urnurl/SDN:C32</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="99" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">Unknown</sdn:SDN_CountryCode>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="arrival_country">arrival_country</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>International Standards Organisation countries</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>C32</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2011-12-15</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>6</gco:CharacterString>
+                </gmd:edition>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://www.seadatanet.org/urnurl/SDN:C32</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <sdn:SDN_PlatformCode codeSpace="SeaDataNet" codeListValue="ZZ99" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_PlatformCode">Unknown</sdn:SDN_PlatformCode>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>ICES Platform Codes</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>C17</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2014-08-27</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>394</gco:CharacterString>
+                </gmd:edition>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://www.seadatanet.org/urnurl/SDN:C17</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <sdn:SDN_PlatformCategoryCode codeSpace="SeaDataNet" codeListValue="31" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_PlatformCategoryCode">research vessel</sdn:SDN_PlatformCategoryCode>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="platform_class">platform_class</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>SeaVoX Platform Categories</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>L06</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2013-08-21</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>10</gco:CharacterString>
+                </gmd:edition>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://www.seadatanet.org/urnurl/SDN:L06</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <sdn:SDN_WaterBodyCode codeSpace="SeaDataNet" codeListValue="1" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_WaterBodyCode">North Atlantic Ocean</sdn:SDN_WaterBodyCode>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>SeaVoX salt and fresh water body gazetteer</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>C19</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2013-04-23</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>14</gco:CharacterString>
+                </gmd:edition>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://www.seadatanet.org/urnurl/SDN:C19</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <sdn:SDN_DeviceCategoryCode codeSpace="SeaDataNet" codeListValue="152" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_DeviceCategoryCode">sidescan sonars</sdn:SDN_DeviceCategoryCode>
+            </gmd:keyword>
+            <gmd:keyword>
+              <sdn:SDN_DeviceCategoryCode codeSpace="SeaDataNet" codeListValue="157" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_DeviceCategoryCode">multi-beam echosounders</sdn:SDN_DeviceCategoryCode>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeSpace="SeaDataNet" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>SeaDataNet device categories</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>L05</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2014-07-23</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:edition>
+                  <gco:CharacterString>43</gco:CharacterString>
+                </gmd:edition>
+                <gmd:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>http://www.seadatanet.org/urnurl/SDN:L05</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:identifier>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:resourceConstraints>
+          <gmd:MD_Constraints>
+            <gmd:useLimitation>
+              <gco:CharacterString>Not applicable</gco:CharacterString>
+            </gmd:useLimitation>
+          </gmd:MD_Constraints>
+        </gmd:resourceConstraints>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:accessConstraints>
+              <gmd:MD_RestrictionCode codeListValue="otherRestrictions" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_RestrictionCode">otherRestrictions</gmd:MD_RestrictionCode>
+            </gmd:accessConstraints>
+            <gmd:otherConstraints>
+              <gmx:Anchor xlink:href="http://www.seadatanet.org/urnurl/SDN:L08::LI">licence</gmx:Anchor>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:language>
+          <gmd:LanguageCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#LanguageCode" codeListValue="eng" codeSpace="ISOTC211/19115">English</gmd:LanguageCode>
+        </gmd:language>
+        <gmd:characterSet>
+          <gmd:MD_CharacterSetCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</gmd:MD_CharacterSetCode>
+        </gmd:characterSet>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+                <gmd:geographicIdentifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>Baie de Douarnenez</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicBoundingBox>
+                <gmd:westBoundLongitude>
+                  <gco:Decimal>-4.6</gco:Decimal>
+                </gmd:westBoundLongitude>
+                <gmd:eastBoundLongitude>
+                  <gco:Decimal>-4.2</gco:Decimal>
+                </gmd:eastBoundLongitude>
+                <gmd:southBoundLatitude>
+                  <gco:Decimal>48</gco:Decimal>
+                </gmd:southBoundLatitude>
+                <gmd:northBoundLatitude>
+                  <gco:Decimal>48.3</gco:Decimal>
+                </gmd:northBoundLatitude>
+              </gmd:EX_GeographicBoundingBox>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                  <gml:MultiCurve gml:id="mc01">
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls001">
+                        <gml:description>curve n°1 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_1</gml:name>
+                        <gml:posList>-4.349000 48.109300 -4.351500 48.108300 -4.361700 48.110500 -4.374700 48.111200 -4.387000 48.106800 -4.395700 48.105800 -4.414800 48.108300 -4.421700 48.106300 -4.427500 48.102200 -4.435500 48.099000 -4.458500 48.098500 -4.467800 48.100000</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls002">
+                        <gml:description>curve n°2 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_2</gml:name>
+                        <gml:posList>-4.498700 48.126700 -4.503000 48.128000</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls003">
+                        <gml:description>curve n°3 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_3</gml:name>
+                        <gml:posList>-4.541700 48.159800 -4.535000 48.168700 -4.538000 48.172500 -4.537200 48.177200 -4.534500 48.180700 -4.529800 48.183300 -4.524000 48.184500 -4.521300 48.188300 -4.516000 48.190500 -4.516200 48.191700 -4.516000 48.192200 -4.514300 48.197200 -4.508300 48.199800 -4.508800 48.201700 -4.508800 48.202000 -4.509000 48.204800 -4.505800 48.211500 -4.494000 48.216700 -4.490500 48.220500 -4.490300 48.221000 -4.490300 48.222000 -4.491000 48.226000 -4.494300 48.226800</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls004">
+                        <gml:description>curve n°4 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_4</gml:name>
+                        <gml:posList>-4.494700 48.226800 -4.491200 48.225800 -4.490800 48.224200 -4.490800 48.223000 -4.490500 48.221700 -4.490700 48.220700 -4.494300 48.216700 -4.506200 48.211500 -4.509200 48.203700 -4.508500 48.200000 -4.514700 48.197300 -4.516200 48.192000 -4.516300 48.191700 -4.516200 48.190500 -4.521500 48.188300 -4.524200 48.184500 -4.530300 48.183300 -4.534800 48.180500 -4.537700 48.176800 -4.537800 48.176700 -4.537700 48.175200 -4.538300 48.173000 -4.535500 48.168700 -4.542500 48.160000 -4.535300 48.169000 -4.538500 48.172300 -4.537800 48.175300 -4.537800 48.175500 -4.537800 48.176500 -4.537800 48.177200 -4.534300 48.181300 -4.524300 48.184700 -4.521200 48.188800 -4.516700 48.190800 -4.514800 48.197500 -4.508700 48.200300 -4.509200 48.201500 -4.509300 48.203700 -4.506300 48.211700 -4.494500 48.216800 -4.491000 48.220700 -4.490700 48.221300 -4.491000 48.222800 -4.491000 48.224000 -4.491500 48.226000 -4.494700 48.226700 -4.489700 48.227300 -4.489500 48.227700 -4.489700 48.228800 -4.489500 48.229800 -4.487700 48.232700 -4.477700 48.234800 -4.464200 48.235200 -4.445700 48.230000 -4.440200 48.225800 -4.440500 48.223800 -4.440300 48.223300 -4.437500 48.220700 -4.432500 48.225000 -4.429500 48.225700 -4.414000 48.221500 -4.406800 48.221500 -4.397300 48.218500 -4.394300 48.216000</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls005">
+                        <gml:description>curve n°5 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_5</gml:name>
+                        <gml:posList>-4.394300 48.216000 -4.397300 48.218700 -4.407200 48.221700 -4.413500 48.221500 -4.428800 48.225700 -4.435700 48.222800 -4.439200 48.222800 -4.440200 48.223700 -4.440000 48.225200 -4.440000 48.226000 -4.446200 48.230500 -4.464200 48.235300 -4.481500 48.234500 -4.488000 48.232700 -4.489800 48.229300</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls006">
+                        <gml:description>curve n°6 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_6</gml:name>
+                        <gml:posList>-4.469000 48.100200 -4.459800 48.098300 -4.450000 48.099300 -4.439500 48.098300 -4.429300 48.101000 -4.420700 48.106700 -4.414200 48.108200 -4.394300 48.105500 -4.385700 48.106700 -4.374500 48.111000 -4.361800 48.110300 -4.356700 48.108700 -4.362300 48.111000 -4.374800 48.111800 -4.387200 48.107300 -4.396200 48.106300 -4.414800 48.109000 -4.437800 48.099200 -4.469700 48.099700 -4.466500 48.101000 -4.458500 48.099000 -4.450200 48.100500 -4.436300 48.099500 -4.415800 48.109300 -4.392000 48.106800 -4.374000 48.112300 -4.362300 48.111500 -4.355300 48.109000 -4.349500 48.109200 -4.342800 48.104700 -4.340300 48.101300</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls007">
+                        <gml:description>curve n°7 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_7</gml:name>
+                        <gml:posList>-4.295700 48.104800 -4.292500 48.110000 -4.292300 48.111500 -4.292300 48.112700 -4.292300 48.113500 -4.292300 48.114800 -4.292300 48.115200 -4.290000 48.120500 -4.289800 48.123800 -4.290000 48.125700 -4.288500 48.129800 -4.288500 48.131800 -4.288500 48.133300 -4.289200 48.137000 -4.289000 48.139000 -4.289200 48.140800 -4.288700 48.143300 -4.288800 48.145300 -4.290500 48.150300 -4.290700 48.152700 -4.297800 48.158500 -4.302500 48.167300 -4.302800 48.168500 -4.302200 48.171500 -4.302200 48.172300 -4.305500 48.180700 -4.317800 48.195800 -4.332000 48.201700 -4.348700 48.204500 -4.374200 48.205500 -4.381000 48.213500 -4.389000 48.216200 -4.394200 48.216000 -4.397500 48.218800 -4.407300 48.221800 -4.413300 48.221800 -4.429000 48.226000 -4.433300 48.225200 -4.434500 48.223300 -4.439300 48.223000 -4.439800 48.223700 -4.439700 48.225500 -4.439700 48.225800 -4.445000 48.230000 -4.464000 48.235500 -4.482000 48.234700 -4.488500 48.232700 -4.490300 48.229200</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls008">
+                        <gml:description>curve n°8 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_8</gml:name>
+                        <gml:posList>-4.490700 48.225700 -4.493500 48.227200 -4.487800 48.233300 -4.469800 48.236500 -4.464000 48.235700 -4.445800 48.230700 -4.440000 48.226300 -4.439700 48.225500 -4.439800 48.224300 -4.439300 48.225500 -4.439700 48.226500 -4.444000 48.229800 -4.439800 48.226700 -4.439300 48.225800 -4.439700 48.225000 -4.438800 48.225500 -4.439200 48.226500 -4.440700 48.227800 -4.439200 48.226200 -4.439800 48.224300 -4.439200 48.223200 -4.436000 48.223200 -4.433700 48.224800 -4.433500 48.223500 -4.438200 48.221800 -4.437700 48.221000 -4.433500 48.223300 -4.433800 48.224700 -4.433500 48.225300 -4.429800 48.226200 -4.414800 48.222200 -4.418200 48.224300 -4.428000 48.226800 -4.431500 48.227000 -4.433000 48.225300 -4.428700 48.226300 -4.413500 48.222000 -4.405200 48.222000 -4.402500 48.219700 -4.397000 48.219000 -4.393700 48.216200 -4.383300 48.216800 -4.380800 48.215200 -4.386700 48.217000 -4.392200 48.216200 -4.383500 48.216700 -4.378500 48.214200 -4.374000 48.209300 -4.375300 48.207500 -4.373700 48.205500 -4.370700 48.205000 -4.375000 48.206300 -4.375300 48.207300 -4.374000 48.209200 -4.375300 48.206500 -4.372000 48.205300 -4.348200 48.204500 -4.331300 48.201800 -4.315500 48.194200 -4.307500 48.182700 -4.305200 48.180800 -4.301800 48.172000 -4.302500 48.169200 -4.302500 48.168500 -4.302500 48.167700 -4.301200 48.165500</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls009">
+                        <gml:description>curve n°9 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_9</gml:name>
+                        <gml:posList>-4.303800 48.095800 -4.300200 48.098200 -4.292800 48.106200 -4.291700 48.111300 -4.290500 48.113000 -4.288800 48.117500 -4.288500 48.118800 -4.288700 48.120000 -4.288500 48.120200 -4.287500 48.122200 -4.287700 48.123000 -4.287300 48.124300 -4.287800 48.125300 -4.287700 48.126200 -4.284500 48.128500 -4.284500 48.129200 -4.284700 48.129800 -4.284700 48.130700 -4.284700 48.130800 -4.283300 48.132800 -4.284000 48.134500 -4.284000 48.135300 -4.282800 48.137200 -4.283800 48.139300 -4.284200 48.141700 -4.283300 48.144000 -4.284700 48.146200 -4.283500 48.148500 -4.285000 48.150200 -4.284700 48.151300 -4.288000 48.155300 -4.297200 48.158700 -4.297800 48.160200 -4.297000 48.161700 -4.299300 48.164700 -4.300300 48.167300 -4.298000 48.169700 -4.300000 48.172700 -4.300000 48.175500 -4.306300 48.184500 -4.308800 48.189800 -4.320300 48.200800 -4.324500 48.200300 -4.331700 48.203000 -4.343700 48.204800 -4.369200 48.204800 -4.375000 48.206500 -4.373300 48.208800 -4.374200 48.209800</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                    <gml:curveMember>
+                      <gml:LineString gml:id="ls010">
+                        <gml:description>curve n°10 from multicurve 1000010</gml:description>
+                        <gml:name codeSpace="http://www.seadatanet.org/urnurl/">1000010_10</gml:name>
+                        <gml:posList>-4.435700 48.221800 -4.438000 48.221300 -4.436300 48.222300</gml:posList>
+                      </gml:LineString>
+                    </gml:curveMember>
+                  </gml:MultiCurve>
+                </gmd:polygon>
+              </gmd:EX_BoundingPolygon>
+            </gmd:geographicElement>
+            <gmd:temporalElement>
+              <gmd:EX_TemporalExtent>
+                <gmd:extent>
+                  <gml:TimePeriod gml:id="mik3.3.3">
+                    <gml:beginPosition>2001-09-04T00:00:00</gml:beginPosition>
+                    <gml:endPosition>2001-09-06T00:00:00</gml:endPosition>
+                  </gml:TimePeriod>
+                </gmd:extent>
+              </gmd:EX_TemporalExtent>
+            </gmd:temporalElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+      </sdn:SDN_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+        <gmd:scope>
+          <gmd:DQ_Scope>
+            <gmd:level>
+              <gmd:MD_ScopeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_ScopeCode" codeListValue="series" codeSpace="ISOTC211/19115">series</gmd:MD_ScopeCode>
+            </gmd:level>
+          </gmd:DQ_Scope>
+        </gmd:scope>
+        <gmd:report>
+          <gmd:DQ_DomainConsistency>
+            <gmd:result>
+              <gmd:DQ_ConformanceResult>
+                <gmd:specification>
+                  <gmd:CI_Citation>
+                    <gmd:title>
+                      <gco:CharacterString>COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards metadata</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                      <gmd:CI_Date>
+                        <gmd:date>
+                          <gco:Date>2008-12-04</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                          <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</gmd:CI_DateTypeCode>
+                        </gmd:dateType>
+                      </gmd:CI_Date>
+                    </gmd:date>
+                  </gmd:CI_Citation>
+                </gmd:specification>
+                <gmd:explanation>
+                  <gco:CharacterString>See the referenced specification</gco:CharacterString>
+                </gmd:explanation>
+                <gmd:pass>
+                  <gco:Boolean>true</gco:Boolean>
+                </gmd:pass>
+              </gmd:DQ_ConformanceResult>
+            </gmd:result>
+          </gmd:DQ_DomainConsistency>
+        </gmd:report>
+        <gmd:lineage>
+          <gmd:LI_Lineage>
+            <gmd:statement>
+              <gco:CharacterString>The data centres apply standard data quality control procedures on all data that the centres manage. Ask the data centre for details.</gco:CharacterString>
+            </gmd:statement>
+          </gmd:LI_Lineage>
+        </gmd:lineage>
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmi:acquisitionInformation>
+      <gmi:MI_AcquisitionInformation>
+        <gmi:objective>
+          <sdn:SDN_Objective gco:isoType="MI_Objective_Type" id="objective-instrument-1-G24-485">
+            <gmi:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gco:CharacterString>objective-instrument-1-G24-485</gco:CharacterString>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmi:identifier>
+            <gmi:type>
+              <gmi:MI_ObjectiveTypeCode codeListValue="instantaneousCollection" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_ObjectiveTypeCode">instantaneousCollection</gmi:MI_ObjectiveTypeCode>
+            </gmi:type>
+            <gmi:function>
+              <gco:CharacterString>Sonar Reson Seabat 8101</gco:CharacterString>
+            </gmi:function>
+            <gmi:sensingInstrument>
+              <gmi:MI_Instrument id="instrument-1-G24-485">
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>instrument-1-G24-485</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:type>
+                  <sdn:SDN_DataCategoryCode codeSpace="SeaDataNet" codeListValue="G24" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_DataCategoryCode">Long/short range side scan sonar</sdn:SDN_DataCategoryCode>
+                </gmi:type>
+                <gmi:mountedOn>
+                  <gmi:MI_Platform>
+                    <gmi:identifier>
+                      <gmd:MD_Identifier>
+                        <gmd:code>
+                          <gco:CharacterString>G24/485</gco:CharacterString>
+                        </gmd:code>
+                      </gmd:MD_Identifier>
+                    </gmi:identifier>
+                    <gmi:description>
+                      <gco:CharacterString>Long/short range side scan sonar, conducted by IFREMER / GM-MARINE GEOSCIENCES</gco:CharacterString>
+                    </gmi:description>
+                    <gmi:sponsor>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:individualName>
+                          <gco:CharacterString>AUGRIS Claude</gco:CharacterString>
+                        </gmd:individualName>
+                        <gmd:organisationName>
+                          <sdn:SDN_EDMOCode codeList="http://seadatanet.maris2.nl/isocodelists/sdncodelists/edmo-edmerp-Codelists.xml#SDN_EDMOCode" codeSpace="SeaDataNet" codeListValue="485">IFREMER / GM-MARINE GEOSCIENCES</sdn:SDN_EDMOCode>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                          <gmd:CI_Contact>
+                            <gmd:phone>
+                              <gmd:CI_Telephone>
+                                <gmd:voice>
+                                  <gco:CharacterString>+33(0)2 98.22.42.70</gco:CharacterString>
+                                </gmd:voice>
+                                <gmd:facsimile>
+                                  <gco:CharacterString>+33(0)2 98.22.45.70</gco:CharacterString>
+                                </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                              <gmd:CI_Address>
+                                <gmd:deliveryPoint>
+                                  <gco:CharacterString>IFREMER Centre de Brest
+BP 70</gco:CharacterString>
+                                </gmd:deliveryPoint>
+                                <gmd:city>
+                                  <gco:CharacterString>PLOUZANE</gco:CharacterString>
+                                </gmd:city>
+                                <gmd:postalCode>
+                                  <gco:CharacterString>29280</gco:CharacterString>
+                                </gmd:postalCode>
+                                <gmd:country>
+                                  <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="FR" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">France</sdn:SDN_CountryCode>
+                                </gmd:country>
+                                <gmd:electronicMailAddress>
+                                  <gco:CharacterString>geosciences.marines@ifremer.fr</gco:CharacterString>
+                                </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                  <gmd:URL>http://www.ifremer.fr/drogm/</gmd:URL>
+                                </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                          </gmd:CI_Contact>
+                        </gmd:contactInfo>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="ISOTC211/19115">principalInvestigator</gmd:CI_RoleCode>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmi:sponsor>
+                    <gmi:instrument xlink:href="instrument-1-G24-485" />
+                  </gmi:MI_Platform>
+                </gmi:mountedOn>
+              </gmi:MI_Instrument>
+            </gmi:sensingInstrument>
+            <gmi:objectiveOccurrence>
+              <gmi:MI_Event id="event-instrument-1-G24-485">
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>event-instrument-1-G24-485</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:trigger>
+                  <gmi:MI_TriggerCode codeListValue="manual" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_TriggerCode">manual</gmi:MI_TriggerCode>
+                </gmi:trigger>
+                <gmi:context>
+                  <gmi:MI_ContextCode codeListValue="acquisition" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_ContextCode">acquisition</gmi:MI_ContextCode>
+                </gmi:context>
+                <gmi:sequence>
+                  <gmi:MI_SequenceCode codeListValue="instantaneous" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_SequenceCode">instantaneous</gmi:MI_SequenceCode>
+                </gmi:sequence>
+                <gmi:time>
+                  <gco:DateTime>2001-09-04T00:00:00</gco:DateTime>
+                </gmi:time>
+              </gmi:MI_Event>
+            </gmi:objectiveOccurrence>
+          </sdn:SDN_Objective>
+        </gmi:objective>
+        <gmi:objective>
+          <sdn:SDN_Objective gco:isoType="MI_Objective_Type" id="objective-instrument-2-G74-485">
+            <gmi:identifier>
+              <gmd:MD_Identifier>
+                <gmd:code>
+                  <gco:CharacterString>objective-instrument-2-G74-485</gco:CharacterString>
+                </gmd:code>
+              </gmd:MD_Identifier>
+            </gmi:identifier>
+            <gmi:type>
+              <gmi:MI_ObjectiveTypeCode codeListValue="instantaneousCollection" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_ObjectiveTypeCode">instantaneousCollection</gmi:MI_ObjectiveTypeCode>
+            </gmi:type>
+            <gmi:function>
+              <gco:CharacterString>Sondeur multifaisceau Reson Seabat 8101</gco:CharacterString>
+            </gmi:function>
+            <gmi:sensingInstrument>
+              <gmi:MI_Instrument id="instrument-2-G74-485">
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>instrument-2-G74-485</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:type>
+                  <sdn:SDN_DataCategoryCode codeSpace="SeaDataNet" codeListValue="G74" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_DataCategoryCode">Multi-beam echosounding</sdn:SDN_DataCategoryCode>
+                </gmi:type>
+                <gmi:mountedOn>
+                  <gmi:MI_Platform>
+                    <gmi:identifier>
+                      <gmd:MD_Identifier>
+                        <gmd:code>
+                          <gco:CharacterString>G74/485</gco:CharacterString>
+                        </gmd:code>
+                      </gmd:MD_Identifier>
+                    </gmi:identifier>
+                    <gmi:description>
+                      <gco:CharacterString>Multi-beam echosounding, conducted by IFREMER / GM-MARINE GEOSCIENCES</gco:CharacterString>
+                    </gmi:description>
+                    <gmi:sponsor>
+                      <gmd:CI_ResponsibleParty>
+                        <gmd:individualName>
+                          <gco:CharacterString>AUGRIS Claude</gco:CharacterString>
+                        </gmd:individualName>
+                        <gmd:organisationName>
+                          <sdn:SDN_EDMOCode codeList="http://seadatanet.maris2.nl/isocodelists/sdncodelists/edmo-edmerp-Codelists.xml#SDN_EDMOCode" codeSpace="SeaDataNet" codeListValue="485">IFREMER / GM-MARINE GEOSCIENCES</sdn:SDN_EDMOCode>
+                        </gmd:organisationName>
+                        <gmd:contactInfo>
+                          <gmd:CI_Contact>
+                            <gmd:phone>
+                              <gmd:CI_Telephone>
+                                <gmd:voice>
+                                  <gco:CharacterString>+33(0)2 98.22.42.70</gco:CharacterString>
+                                </gmd:voice>
+                                <gmd:facsimile>
+                                  <gco:CharacterString>+33(0)2 98.22.45.70</gco:CharacterString>
+                                </gmd:facsimile>
+                              </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                              <gmd:CI_Address>
+                                <gmd:deliveryPoint>
+                                  <gco:CharacterString>IFREMER Centre de Brest
+BP 70</gco:CharacterString>
+                                </gmd:deliveryPoint>
+                                <gmd:city>
+                                  <gco:CharacterString>PLOUZANE</gco:CharacterString>
+                                </gmd:city>
+                                <gmd:postalCode>
+                                  <gco:CharacterString>29280</gco:CharacterString>
+                                </gmd:postalCode>
+                                <gmd:country>
+                                  <sdn:SDN_CountryCode codeSpace="SeaDataNet" codeListValue="FR" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#SDN_CountryCode">France</sdn:SDN_CountryCode>
+                                </gmd:country>
+                                <gmd:electronicMailAddress>
+                                  <gco:CharacterString>geosciences.marines@ifremer.fr</gco:CharacterString>
+                                </gmd:electronicMailAddress>
+                              </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                              <gmd:CI_OnlineResource>
+                                <gmd:linkage>
+                                  <gmd:URL>http://www.ifremer.fr/drogm/</gmd:URL>
+                                </gmd:linkage>
+                              </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                          </gmd:CI_Contact>
+                        </gmd:contactInfo>
+                        <gmd:role>
+                          <gmd:CI_RoleCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="ISOTC211/19115">principalInvestigator</gmd:CI_RoleCode>
+                        </gmd:role>
+                      </gmd:CI_ResponsibleParty>
+                    </gmi:sponsor>
+                    <gmi:instrument xlink:href="instrument-2-G74-485" />
+                  </gmi:MI_Platform>
+                </gmi:mountedOn>
+              </gmi:MI_Instrument>
+            </gmi:sensingInstrument>
+            <gmi:objectiveOccurrence>
+              <gmi:MI_Event id="event-instrument-2-G74-485">
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>event-instrument-2-G74-485</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:trigger>
+                  <gmi:MI_TriggerCode codeListValue="manual" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_TriggerCode">manual</gmi:MI_TriggerCode>
+                </gmi:trigger>
+                <gmi:context>
+                  <gmi:MI_ContextCode codeListValue="acquisition" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_ContextCode">acquisition</gmi:MI_ContextCode>
+                </gmi:context>
+                <gmi:sequence>
+                  <gmi:MI_SequenceCode codeListValue="instantaneous" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_SequenceCode">instantaneous</gmi:MI_SequenceCode>
+                </gmi:sequence>
+                <gmi:time>
+                  <gco:DateTime>2001-09-04T00:00:00</gco:DateTime>
+                </gmi:time>
+              </gmi:MI_Event>
+            </gmi:objectiveOccurrence>
+          </sdn:SDN_Objective>
+        </gmi:objective>
+        <gmi:operation>
+          <gmi:MI_Operation id="urn.SDN.CSR.LOCAL.1000010">
+            <gmi:description>
+              <gco:CharacterString>Cette campagne est une prestation commerciale de la société Mesuris SA (Saint-Grégoire, France) pour l'IFREMER. Elle s'inscrit dans le cadre des campagnes CANADOU en Baie de Douarnenez.</gco:CharacterString>
+            </gmi:description>
+            <gmi:citation>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>CANADOU RESON 2001</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>FI352001000010</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2013-04-16</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+              </gmd:CI_Citation>
+            </gmi:citation>
+            <gmi:status>
+              <gmd:MD_ProgressCode codeListValue="completed" codeList="http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/gmxCodeLists.xml#MD_ProgressCode">completed</gmd:MD_ProgressCode>
+            </gmi:status>
+            <gmi:significantEvent>
+              <gmi:MI_Event>
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>cruise-start</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:trigger>
+                  <gmi:MI_TriggerCode codeListValue="manual" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_TriggerCode">manual</gmi:MI_TriggerCode>
+                </gmi:trigger>
+                <gmi:context>
+                  <gmi:MI_ContextCode codeListValue="wayPoint" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_ContextCode">wayPoint</gmi:MI_ContextCode>
+                </gmi:context>
+                <gmi:sequence>
+                  <gmi:MI_SequenceCode codeListValue="start" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_SequenceCode">start</gmi:MI_SequenceCode>
+                </gmi:sequence>
+                <gmi:time>
+                  <gco:DateTime>2001-09-04T00:00:00</gco:DateTime>
+                </gmi:time>
+              </gmi:MI_Event>
+            </gmi:significantEvent>
+            <gmi:significantEvent xlink:href="event-instrument-1-G24-485" />
+            <gmi:significantEvent xlink:href="event-instrument-2-G74-485" />
+            <gmi:significantEvent>
+              <gmi:MI_Event>
+                <gmi:identifier>
+                  <gmd:MD_Identifier>
+                    <gmd:code>
+                      <gco:CharacterString>cruise-end</gco:CharacterString>
+                    </gmd:code>
+                  </gmd:MD_Identifier>
+                </gmi:identifier>
+                <gmi:trigger>
+                  <gmi:MI_TriggerCode codeListValue="manual" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_TriggerCode">manual</gmi:MI_TriggerCode>
+                </gmi:trigger>
+                <gmi:context>
+                  <gmi:MI_ContextCode codeListValue="wayPoint" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_ContextCode">wayPoint</gmi:MI_ContextCode>
+                </gmi:context>
+                <gmi:sequence>
+                  <gmi:MI_SequenceCode codeListValue="end" codeList="http://www.isotc211.org/2005/resources/Codelist/gmiCodelists.xml#MI_SequenceCode">end</gmi:MI_SequenceCode>
+                </gmi:sequence>
+                <gmi:time>
+                  <gco:DateTime>2001-09-06T00:00:00</gco:DateTime>
+                </gmi:time>
+              </gmi:MI_Event>
+            </gmi:significantEvent>
+          </gmi:MI_Operation>
+        </gmi:operation>
+      </gmi:MI_AcquisitionInformation>
+    </gmi:acquisitionInformation>
+  </gmi:MI_Metadata>
